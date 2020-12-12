@@ -167,13 +167,12 @@ body, html {
   box-shadow:0px 2px 7px 0px #ff0000d9;
   width: 10%;
   height: 10%;
-  padding:4%;
+  padding:25px;
   border:1px solid #ff0000c9;
   border-radius: 30%;
   cursor: pointer;
 }
 .submit-icon{
-  padding:25px;
   background-image: url('../images/next.png'); /* 16px x 16px */
   background-repeat: no-repeat;  /* make the background image appear only once */
   background-position: 7px 7px;
