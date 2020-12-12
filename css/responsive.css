@@ -6,6 +6,9 @@
     .box-2{
       display: none;
     }
+    .title-content{
+      width: 100%;
+    }
     .heading{
       font-size:26px;
       font-weight: 800;
@@ -35,9 +38,7 @@
     .buttons-box {
       margin-left: -35px;
   }
-  /* .form-inline{
-    margin-left: -30px;
-  }  */
+  
   .submit {
     margin-left: 32px;
     margin-top: 16px;
