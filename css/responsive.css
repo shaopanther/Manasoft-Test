@@ -168,8 +168,6 @@ input[type=password] {
   margin-left: -9px;
 }
 .signup-section {
-  /* height: 130%; */
-  line-height: auto;
   width: 1300px;
   background: #fff;
   border-radius: 10px;
