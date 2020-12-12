@@ -75,6 +75,9 @@
   .agree-box{
     margin-left:-30px;
   }
+  .pass-lable{
+    margin-left: -30px;
+  }
   }
 @media (max-width: 800px) {
     .form-inline input {
