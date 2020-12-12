@@ -35,9 +35,9 @@
     .buttons-box {
       margin-left: -35px;
   }
-  .form-inline{
+  /* .form-inline{
     margin-left: -30px;
-  } 
+  }  */
   .submit {
     margin-left: 32px;
     margin-top: 16px;
@@ -82,6 +82,7 @@
     }
     
     .form-inline {
+      margin-left: -30px;
       flex-direction: column;
       align-items: stretch;
     }
