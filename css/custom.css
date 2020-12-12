@@ -59,7 +59,7 @@ body, html {
   }
   .box-2{
     width: 50%;
-    background-image: url('/images/launch.jpg');
+    background-image: url('../images/launch.jpg');
     background-repeat: none;
     background-size: cover;
   }
@@ -110,12 +110,12 @@ body, html {
     cursor: pointer;
   }
   .fb-btn{
-    background-image: url('/images/facebook.png'); /* 16px x 16px */
+    background-image: url('../images/facebook.png'); /* 16px x 16px */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-position: 10px 5px; 
   }
   .google-btn{
-    background-image: url('/images/google.png'); /* 16px x 16px */
+    background-image: url('../images/google.png'); /* 16px x 16px */
     background-repeat: no-repeat;  /* make the background image appear only once */
     background-position: 10px 5px; 
   }
@@ -173,7 +173,7 @@ body, html {
   cursor: pointer;
 }
 .submit-icon{
-  background-image: url('/images/next.png'); /* 16px x 16px */
+  background-image: url('../images/next.png'); /* 16px x 16px */
   background-repeat: no-repeat;  /* make the background image appear only once */
   background-position: 7px 3px;
 }
