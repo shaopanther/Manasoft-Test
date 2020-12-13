@@ -94,7 +94,7 @@
       align-items: stretch;
     }
   }
-  /* Pixel responsive */
+  /* Pixel and pixel2 x responsive */
   @media only screen and (max-width: 411px) and(min-width:400px) {
     .heading {
       font-size: 38px;
@@ -182,3 +182,10 @@ input[type=password] {
   padding: 50px 130px 133px 95px;
 }
   }
+  /* Iphone responsive */
+  @media only screen and (max-width: 320px) and (min-width: 300px)
+  {
+ .title-content {
+    width: 215%;
+ }
+} 
