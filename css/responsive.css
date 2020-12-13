@@ -371,4 +371,12 @@ input[type=password] {
   margin-bottom: 30px;
   margin-left: 205px;
   }
+  .buttons-box {
+    margin-left: 85px;
+  }
+  .form-inline {
+    margin-left: 0px;
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
