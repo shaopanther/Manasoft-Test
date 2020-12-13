@@ -201,6 +201,15 @@ input[type=password] {
     margin-left: -44px;
   }
   .password {
-    width: 270%;
+    width: 290%;
+  }
+  input[type=password] {
+    margin-left: -42px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: #e9f4ff;
+    border-radius: 8px;
+    box-sizing: border-box;
   }
 } 
