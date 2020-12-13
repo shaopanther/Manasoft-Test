@@ -212,4 +212,25 @@ input[type=password] {
     border-radius: 8px;
     box-sizing: border-box;
   }
+  .agree-box {
+    width: 272%;
+    margin-left: -36px;
+  }
+  .submit {
+    margin-left: 32px;
+    margin-top: 16px;
+    background-color: #ff0000cc;
+    box-shadow: 0px 2px 7px 0px #ff0000d9;
+    width: 30%;
+    height: 40%;
+    padding: 35%;
+    border: 1px solid #ff0000c9;
+    border-radius: 30%;
+    cursor: pointer;
+  }
+  .signin-content {
+    width: 200%;
+    margin-top: 20px;
+    font-size: 15px;
+  }
 } 
