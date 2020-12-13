@@ -249,16 +249,59 @@ input[type=password] {
   }
 }
 /* Iphone 6/7/8 plus Responsive */
-@media only screen and (max-width: 414px) and (min-width: 400px)
+@media only screen and (max-width: 414px) and (min-width: 410px)
 {
-.check-content {
-    font-size: 13px;
+  .heading {
+    font-size: 40px;
+    font-weight: 800;
+    color: #1d2e52;
+    margin-bottom: 30px;
   }
-.password {
-  width: 181%;
+  .dashed-text {
+    color: #ea1717c7;
+    padding-left: 63px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    font-size: 14px;
+    z-index: 1;
+    overflow: hidden;
   }
-.signin-content {
-  margin-top: 20px;
-  font-size: 16px;
+  .dashed-text:before {
+    position: absolute;
+    right: 78%;
+    top: 22%;
+    overflow: hidden;
+    width: 50%;
+    height: 2px;
+    content: '\a0';
+    background-color: red;
+  }
+  .buttons-box {
+    margin-left: -7px;
+  }
+  .form-inline {
+    margin-left: -8px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .pass-lable {
+    margin-left: -6px;
+  }
+  .password {
+    width: 136%;
+  }
+  input[type=password] {
+    margin-left: -8px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: #e9f4ff;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  .agree-box {
+    width: 145%;
+    margin-left: -9px;
   }
 }
