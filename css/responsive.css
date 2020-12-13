@@ -184,8 +184,23 @@ input[type=password] {
   }
   /* Iphone responsive */
   @media only screen and (max-width: 320px) and (min-width: 300px)
-  {
+{
  .title-content {
     width: 215%;
- }
+    margin-left:-15px;
+  }
+ .buttons-box {
+  margin-left: -45px;
+  }
+  .form-inline {
+    margin-left: -48px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .pass-lable {
+    margin-left: -44px;
+  }
+  .password {
+    width: 270%;
+  }
 } 
