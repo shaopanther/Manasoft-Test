@@ -182,7 +182,7 @@ input[type=password] {
   padding: 50px 130px 133px 95px;
 }
   }
-  /* Iphone responsive */
+  /* Iphone 5/SE responsive */
   @media only screen and (max-width: 320px) and (min-width: 300px)
 {
  .title-content {
@@ -234,3 +234,17 @@ input[type=password] {
     font-size: 15px;
   }
 } 
+/* Iphone 6/7/8 Responsive */
+@media only screen and (max-width: 375px) and (min-width: 370px)
+{
+.check-content {
+    font-size: 13px;
+  }
+.password {
+  width: 181%;
+  }
+.signin-content {
+  margin-top: 20px;
+  font-size: 16px;
+  }
+}
