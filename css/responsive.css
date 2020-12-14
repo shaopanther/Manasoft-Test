@@ -426,7 +426,7 @@ input[type=password] {
     font-size: 14px;
   }
   .submit {
-    margin-left: 32px;
+    margin-left: 230px;
     margin-top: 16px;
     background-color: #ff0000cc;
     box-shadow: 0px 2px 7px 0px #ff0000d9;
@@ -441,6 +441,11 @@ input[type=password] {
     background-image: url(../images/next.png);
     background-repeat: no-repeat;
     background-position: 12px 15px;
+  }
+  .signin-content {
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 14px;
   }
 
 
