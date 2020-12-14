@@ -381,7 +381,7 @@ input[type=password] {
   }
   .dashed-text:before {
     position: absolute;
-    background-color: white;
+    background-color: red;
 }
   .form-inline input {
     width: 210%;
