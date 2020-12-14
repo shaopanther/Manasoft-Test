@@ -521,4 +521,9 @@ input[type=password] {
     margin-top: 20px;
     font-size: 18px;
   }
+  .submit-icon {
+    background-image: url(../images/next.png);
+    background-repeat: no-repeat;
+    background-position: 17px 16px;
+  }
 }
