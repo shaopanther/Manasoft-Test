@@ -391,9 +391,9 @@ input[type=password] {
     overflow: hidden;
 }
   .dashed-text:before {
-    position: fixed;
     background-color: red;
-}
+    right: 185px;
+  }
   .form-inline input {
     width: 210%;
     margin: 10px 0;
