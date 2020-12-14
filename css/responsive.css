@@ -456,6 +456,9 @@ input[type=password] {
       width: 100%;
       margin: 0 auto;
     }
+    .box-1{
+      width:100%;
+    }
     .box-2{
       width: 0%;
       display: none;
