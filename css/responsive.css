@@ -467,11 +467,14 @@ input[type=password] {
       width: 80%;
     }
     .heading {
-      font-size: 45px;
+      font-size: 55px;
       font-weight: 800;
       color: #1d2e52;
       margin-bottom: 30px;
-      margin-left: 180px;
+      margin-left: 270px;
+    }
+    .name-wrapper lable, .email-wrapper lable, .password-wrapper lable{
+      font-size: 26px;
     }
     .buttons-box {
       margin-left: 85px;
@@ -482,20 +485,21 @@ input[type=password] {
       align-items: stretch;
     }
     .dashed-text {
-      margin-left: 190px;
+      margin-left: 310px;
       color: #ea1717c7;
       padding-left: 40px;
       padding-bottom: 20px;
       font-weight: 500;
       position: relative;
-      font-size: 16px;
+      font-size: 20px;
       z-index: 1;
       overflow: hidden;
-  }
-    .dashed-text:before {
-      background-color: red;
-      right: 185px;
     }
+  .dashed-text:before {
+    background-color: red;
+    right: 422px;
+    top: 10px;
+  }
     .form-inline input {
       width: 210%;
       margin: 10px 0;
