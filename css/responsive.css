@@ -398,6 +398,9 @@ input[type=password] {
     width: 210%;
     margin: 10px 0;
   }
+  .name-wrapper lable, .email-wrapper lable, .password-wrapper lable{
+    font-size: 26px;
+  }
   .email-wrapper {
     width: 50%;
     float: left;
