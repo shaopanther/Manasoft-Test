@@ -379,7 +379,7 @@ input[type=password] {
     flex-direction: column;
     align-items: stretch;
   }
-  .dashed-text {
+  /* .dashed-text {
     color: #ea1717c7;
     padding-left: 125x;
     padding-bottom: 20px;
@@ -388,7 +388,7 @@ input[type=password] {
     font-size: 16px;
     z-index: 1;
     overflow: hidden;
-  }
+  } */
   .form-inline input {
     width: 210%;
     margin: 10px 0;
