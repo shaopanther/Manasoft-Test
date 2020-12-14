@@ -451,3 +451,30 @@ input[type=password] {
     font-size: 14px;
   }
 }
+/* Ipad Responsive */
+@media only screen and (max-width: 540px) and (min-width: 530px)
+{
+  .heading {
+    font-size: 42px;
+    font-weight: 800;
+    color: #1d2e52;
+    margin-bottom: 30px;
+  }
+  .dashed-text {
+    color: #ea1717c7;
+    padding-left: 47px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    font-size: 16px;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .title-content {
+    margin-left: 90px;
+    width: 140%;
+  }
+  .buttons-box {
+    margin-left: 68px;
+  }
+}
