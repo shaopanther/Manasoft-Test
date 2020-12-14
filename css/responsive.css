@@ -1,5 +1,5 @@
 /* Mobile Responsive */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width:760px) {
     .box-1{
       width: 100%;
     }
