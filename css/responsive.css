@@ -1,44 +1,51 @@
 /* Mobile Responsive */
 @media only screen and (max-width: 768px){
-    .box-1{
-      width: 100%;
-    }
-    .box-2{
-      display: none;
-    }
-    .title-content{
-      width: 140%;
-    }
-    .heading{
-      font-size:35px;
-      font-weight: 800;
-      color: #1d2e52;
-      margin-bottom: 30px;
-    }
-    .dashed-text {
-      color: #ea1717c7;
-      padding-left: 40px;
-      padding-bottom: 20px;
-      font-weight: 500;
-      position: relative;
-      font-size: 14px;
-      z-index: 1;
-      overflow: hidden;
+  /* making full width Box-1 */
+  .box-1{
+    width: 100%;
   }
-    .dashed-text:before{
-      position: absolute;
-      right: 78%;
-      top: 18%;
-      overflow: hidden;
-      width: 50%;
-      height: 2px;
-      content: '\a0';
-      background-color: red;
-    }
-    .buttons-box {
-      margin-left: -35px;
+  /* hiding box-2 on mobile */
+  .box-2{
+    display: none;
   }
-  
+  /* title styles */
+  .title-content{
+    width: 140%;
+  }
+  /* heading styles */
+  .heading{
+    font-size:35px;
+    font-weight: 800;
+    color: #1d2e52;
+    margin-bottom: 30px;
+  }
+  /* sub heading styles */
+  .dashed-text {
+    color: #ea1717c7;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    font-size: 14px;
+    z-index: 1;
+    overflow: hidden;
+  }
+  /* dash styles */
+  .dashed-text:before{
+    position: absolute;
+    right: 78%;
+    top: 18%;
+    overflow: hidden;
+    width: 50%;
+    height: 2px;
+    content: '\a0';
+    background-color: red;
+  }
+  /* button box styles */
+  .buttons-box {
+    margin-left: -35px;
+  }
+  /* submit button styles */
   .submit {
     margin-left: 32px;
     margin-top: 16px;
@@ -51,16 +58,20 @@
     border-radius: 30%;
     cursor: pointer;
   }
+  /* signin content */
   .signin-content {
     margin-top: 20px;
     font-size: 14px;
   }
+  /* agree content */
   .check-content {
     font-size: 12px;
   }
-  .lable{
-  margin-left: -20px;
-  }
+
+  /* .lable{
+    margin-left: -20px;
+  } */
+  /* all inputs styles */
   input[type=text], input[type=email], input[type=password] {
     margin-left: -30px;
     padding: 12px 20px;
@@ -70,38 +81,47 @@
     border-radius: 8px;
     box-sizing: border-box;
   }
+  /* checkbox for agreement */
   .checkbox{
     margin-left:0px;
   }
+  /* agreement div styles */
   .agree-box{
     width: 200%;
     margin-left: -25px;
   }
+  /* password input  */
   .password{
     width: 205%;
   }
-  }
+}
+/* inline form inputs responsivness */
 @media (max-width: 800px) {
-    .form-inline input {
-      margin: 10px 0;
-    }
-    .pass-lable{
-      margin-left: -30px;
-    }
-    .form-inline {
-      margin-left: -30px;
-      flex-direction: column;
-      align-items: stretch;
-    }
+  /* adding margin to inputs */
+  .form-inline input {
+    margin: 10px 0;
   }
-  /* Pixel and pixel2 x responsive */
-  @media only screen and (max-width: 411px) and(min-width:400px) {
-    .heading {
-      font-size: 38px;
-      font-weight: 800;
-      color: #1d2e52;
-      margin-bottom: 30px;
+  /* adding password lable margin */
+  .pass-lable{
+    margin-left: -30px;
   }
+  /* flexing and add margins */
+  .form-inline {
+    margin-left: -30px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* Pixel and pixel2  responsive */
+@media only screen and (max-width: 411px) and(min-width:400px) {
+  .heading {
+    font-size: 38px;
+    font-weight: 800;
+    color: #1d2e52;
+    margin-bottom: 30px;
+  }
+  /* sub heading */
   .dashed-text {
     color: #ea1717c7;
     padding-left: 40px;
@@ -111,100 +131,35 @@
     font-size: 18px;
     z-index: 1;
     overflow: hidden;
-}
-.dashed-text:before {
-  position: absolute;
-  right: 85%;
-  top: 21%;
-  overflow: hidden;
-  width: 50%;
-  height: 2px;
-  content: '\a0';
-  background-color: red;
-}
-.buttons-box {
-  margin-left: -11px;
-}
-.form-inline {
-  margin-left: -13px;
-  flex-direction: column;
-  align-items: stretch;
-}
-.pass-lable {
-  margin-left: -13px;
-}
-input[type=password] {
-  margin-left: -14px;
-  padding: 12px 20px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  background: #e9f4ff;
-  border-radius: 8px;
-  box-sizing: border-box;
-}
-.password {
-  width: 140%;
-}
-.agree-box {
-  width: 120%;
-  margin-left: -11px;
-}
-.submit {
-  margin-left: 32px;
-  margin-top: 16px;
-  background-color: #ff0000cc;
-  box-shadow: 0px 2px 7px 0px #ff0000d9;
-  width: 30%;
-  height: 40%;
-  padding: 15%;
-  border: 1px solid #ff0000c9;
-  border-radius: 30%;
-  cursor: pointer;
-}
-.signin-content {
-  width: 140%;
-  margin-top: 20px;
-  font-size: 14px;
-  margin-left: -9px;
-}
-.signup-section {
-  width: 1300px;
-  background: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 50px 130px 133px 95px;
-}
   }
-  /* Iphone 5/SE responsive */
-  @media only screen and (max-width: 320px) and (min-width: 300px)
-{
- .title-content {
-    width: 215%;
-    margin-left:-15px;
+  /* sub heading dash sign */
+  .dashed-text:before {
+    position: absolute;
+    right: 85%;
+    top: 21%;
+    overflow: hidden;
+    width: 50%;
+    height: 2px;
+    content: '\a0';
+    background-color: red;
   }
- .buttons-box {
-  margin-left: -45px;
+  /* buttons div */
+  .buttons-box {
+    margin-left: -11px;
   }
+  /* inline form inputs */
   .form-inline {
-    margin-left: -48px;
+    margin-left: -13px;
     flex-direction: column;
     align-items: stretch;
   }
+  /* password lable */
   .pass-lable {
-    margin-left: -44px;
+    margin-left: -13px;
   }
-  .password {
-    width: 315%;
-  }
+  /* password styles */
   input[type=password] {
-    margin-left: -42px;
+    margin-left: -14px;
     padding: 12px 20px;
     display: inline-block;
     border: 1px solid #ccc;
@@ -212,10 +167,16 @@ input[type=password] {
     border-radius: 8px;
     box-sizing: border-box;
   }
-  .agree-box {
-    width: 272%;
-    margin-left: -36px;
+  /* password input */
+  .password {
+    width: 140%;
   }
+  /* agreement div */
+  .agree-box {
+    width: 120%;
+    margin-left: -11px;
+  }
+  /* submit button */
   .submit {
     margin-left: 32px;
     margin-top: 16px;
@@ -223,45 +184,129 @@ input[type=password] {
     box-shadow: 0px 2px 7px 0px #ff0000d9;
     width: 30%;
     height: 40%;
-    padding: 35%;
+    padding: 15%;
     border: 1px solid #ff0000c9;
     border-radius: 30%;
     cursor: pointer;
   }
+  /* signin content  */
   .signin-content {
-    width: 200%;
+    width: 140%;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 14px;
+    margin-left: -9px;
   }
+  /* signup section */
+  .signup-section {
+    width: 1300px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 130px 133px 95px;
+  }
+}
+/* Iphone 5/SE responsive */
+@media only screen and (max-width: 320px) and (min-width: 300px)
+{
+  /* main headings div */
+ .title-content {
+  width: 215%;
+  margin-left:-15px;
+}
+/* inline buttons */
+.buttons-box {
+  margin-left: -45px;
+}
+/* inline form inputs */
+.form-inline {
+  margin-left: -48px;
+  flex-direction: column;
+  align-items: stretch;
+}
+/* password lable */
+.pass-lable {
+  margin-left: -44px;
+}
+/* password input width */
+.password {
+  width: 315%;
+}
+/* password input */
+input[type=password] {
+  margin-left: -42px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background: #e9f4ff;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+/* agreement div */
+.agree-box {
+  width: 272%;
+  margin-left: -36px;
+}
+/* submit button */
+.submit {
+  margin-left: 32px;
+  margin-top: 16px;
+  background-color: #ff0000cc;
+  box-shadow: 0px 2px 7px 0px #ff0000d9;
+  width: 30%;
+  height: 40%;
+  padding: 35%;
+  border: 1px solid #ff0000c9;
+  border-radius: 30%;
+  cursor: pointer;
+}
+/* signin content */
+.signin-content {
+  width: 200%;
+  margin-top: 20px;
+  font-size: 15px;
+}
 } 
 /* Iphone 6/7/8 Responsive */
 @media only screen and (max-width: 375px) and (min-width: 370px)
 {
-.check-content {
+  /* agreement content font size */
+  .check-content {
     font-size: 13px;
   }
-.password {
-  width: 181%;
+  /* password input */
+  .password {
+    width: 181%;
   }
-.signin-content {
-  margin-top: 20px;
-  font-size: 16px;
+  /* signing content */
+  .signin-content {
+    margin-top: 20px;
+    font-size: 16px;
   }
 }
 /* Iphone 6/7/8 plus Responsive */
 @media only screen and (max-width: 414px) and (min-width: 410px)
 {
+  /* main section  */
   .main-section {
     height: 130%;
     width: 100%;
     margin: 0 auto;
   }
+  /* heading */
   .heading {
     font-size: 40px;
     font-weight: 800;
     color: #1d2e52;
     margin-bottom: 30px;
   }
+  /* sub heading */
   .dashed-text {
     color: #ea1717c7;
     padding-left: 63px;
@@ -272,6 +317,7 @@ input[type=password] {
     z-index: 1;
     overflow: hidden;
   }
+  /* dash sign adjustment */
   .dashed-text:before {
     position: absolute;
     right: 78%;
@@ -282,20 +328,25 @@ input[type=password] {
     content: '\a0';
     background-color: red;
   }
+  /* inline button centering */
   .buttons-box {
     margin-left: -7px;
   }
+  /* inline form  */
   .form-inline {
     margin-left: -8px;
     flex-direction: column;
     align-items: stretch;
   }
+  /* password lable */
   .pass-lable {
     margin-left: -6px;
   }
+  /* password input width */
   .password {
     width: 136%;
   }
+  /* password input styles */
   input[type=password] {
     margin-left: -8px;
     padding: 12px 20px;
@@ -305,10 +356,12 @@ input[type=password] {
     border-radius: 8px;
     box-sizing: border-box;
   }
+  /* agreement box */
   .agree-box {
     width: 145%;
     margin-left: -9px;
   }
+  /* submit button */
   .submit {
     margin-left: 57px;
     margin-top: 16px;
@@ -321,6 +374,7 @@ input[type=password] {
     border-radius: 30%;
     cursor: pointer;
   }
+  /* signin content */
   .signin-content {
     margin-top: 20px;
     font-size: 14px;
@@ -330,40 +384,46 @@ input[type=password] {
 /* Iphone X Responsive */
 @media only screen and (max-width: 375px) and (min-width: 370px)
 {
+  /* main section */
   .main-section {
     height: 115%;
     width: 100%;
     margin: 0 auto;
   }
+  /* signin content  */
   .signin-content {
     margin-top: 20px;
     font-size: 15px;
     margin-left: 11px;
   }
-.submit {
-  margin-left: 42px;
-  margin-top: 16px;
-  background-color: #ff0000cc;
-  box-shadow: 0px 2px 7px 0px #ff0000d9;
-  width: 30%;
-  height: 40%;
-  padding: 20%;
-  border: 1px solid #ff0000c9;
-  border-radius: 30%;
-  cursor: pointer;
+  /* submit button styles */
+  .submit {
+    margin-left: 42px;
+    margin-top: 16px;
+    background-color: #ff0000cc;
+    box-shadow: 0px 2px 7px 0px #ff0000d9;
+    width: 30%;
+    height: 40%;
+    padding: 20%;
+    border: 1px solid #ff0000c9;
+    border-radius: 30%;
+    cursor: pointer;
   }
 }
 /* Ipad Responsive */
 @media only screen and (max-width: 768px) and (min-width: 750px)
 {
+  /* main section css */
   .main-section {
     height: 130%;
     width: 100%;
     margin: 0 auto;
   }
+  /* content div styles */
   .title-content {
     width: 80%;
   }
+  /* heading styles */
   .heading {
     font-size: 45px;
     font-weight: 800;
@@ -371,14 +431,17 @@ input[type=password] {
     margin-bottom: 30px;
     margin-left: 180px;
   }
+  /* inline button styles */
   .buttons-box {
     margin-left: 85px;
   }
+  /* inline form styles */
   .form-inline {
     margin-left: 0px;
     flex-direction: column;
     align-items: stretch;
   }
+  /* subheading styles */
   .dashed-text {
     margin-left: 190px;
     color: #ea1717c7;
@@ -389,26 +452,28 @@ input[type=password] {
     font-size: 16px;
     z-index: 1;
     overflow: hidden;
-}
+  }
+  /* subheading dash sign */
   .dashed-text:before {
     background-color: red;
     right: 185px;
   }
+  /* inline inputs styles */
   .form-inline input {
     width: 210%;
     margin: 10px 0;
   }
-  .name-wrapper lable, .email-wrapper lable, .password-wrapper lable{
-    font-size: 26px;
-  }
+  /* email wrapper styles */
   .email-wrapper {
     width: 50%;
     float: left;
     padding-left: 0%;
   }
+  /* password lable */
   .pass-lable {
     margin-left: 0px;
   }
+  /* all inputs defaults styles */
   input[type=text], input[type=email], input[type=password] {
     margin-left: 0px;
     padding: 12px 20px;
@@ -418,16 +483,20 @@ input[type=password] {
     border-radius: 8px;
     box-sizing: border-box;
   }
+  /* password input */
   .password {
     width: 105%;
   }
+  /* agreement box */
   .agree-box {
     width: 200%;
     margin-left: 8px;
   }
+  /* agreement content */
   .check-content {
     font-size: 14px;
   }
+  /* submit button */
   .submit {
     margin-left: 230px;
     margin-top: 16px;
@@ -440,26 +509,30 @@ input[type=password] {
     border-radius: 30%;
     cursor: pointer;
   }
+  /* submit button icon */
   .submit-icon {
     background-image: url(../images/next.png);
     background-repeat: no-repeat;
     background-position: 12px 15px;
   }
+  /* singin content */
   .signin-content {
     margin-left: 160px;
     margin-top: 20px;
     font-size: 14px;
   }
 }
-/* Ipad Responsive */
+/* surface duo Responsive */
 @media only screen and (max-width: 540px) and (min-width: 530px)
 {
+  /* heading styles */
   .heading {
     font-size: 42px;
     font-weight: 800;
     color: #1d2e52;
     margin-bottom: 30px;
   }
+  /* subheading content */
   .dashed-text {
     color: #ea1717c7;
     padding-left: 47px;
@@ -470,6 +543,7 @@ input[type=password] {
     z-index: 1;
     overflow: hidden;
   }
+  /* subheading dash sign */
   .dashed-text:before {
     position: absolute;
     right: 91%;
@@ -480,31 +554,39 @@ input[type=password] {
     content: '\a0';
     background-color: red;
   }
+  /* subheading  */
   .title-content {
     margin-left: 90px;
     width: 140%;
   }
+  /* button box */
   .buttons-box {
     margin-left: 68px;
   }
+  /* inline form inputs */
   .form-inline input {
     width: 235%;
     margin: 10px 0;
   }
+  /* email wrapper */
   .email-wrapper {
     width: 50%;
     float: left;
   }
+  /* password input */
   .password {
     width: 129%;
   }
+  /* agreement div */
   .agree-box {
     width: 125%;
     margin-left: -25px;
   }
+  /* agreement content */
   .check-content {
     font-size: 17px;
   }
+  /* submit button */
   .submit {
     margin-left: 110px;
     margin-top: 16px;
@@ -517,10 +599,12 @@ input[type=password] {
     border-radius: 30%;
     cursor: pointer;
   }
+  /* sigin content */
   .signin-content {
     margin-top: 20px;
     font-size: 18px;
   }
+  /* submit button */
   .submit-icon {
     background-image: url(../images/next.png);
     background-repeat: no-repeat;
