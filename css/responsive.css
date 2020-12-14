@@ -546,7 +546,7 @@ input[type=password] {
     .submit-icon {
       background-image: url(../images/next.png);
       background-repeat: no-repeat;
-      background-position: 12px 15px;
+      background-position: 25px 21px;
     }
     .signin-content {
       margin-left: 160px;
